@@ -32,15 +32,6 @@ public class RabbitConfig {
         return BindingBuilder.bind(weatherQueue).to(weatherExchange).with("weather.key");
     }
 
-    // RabbitMQ'ya mesaj göndermek için kullanılan template
-    @Bean
-    public RabbitTemplate rabbitTemplate(ConnectionFactory connectionFactory) {
-        RabbitTemplate template = new RabbitTemplate(connectionFactory);
-        // Mesajları JSON olarak göndermek ve almak için converter ekliyoruz
-        template.setMessageConverter(new Jackson2JsonMessageConverter());
-        return template;
-    }
-
     // @RabbitListener metodları için listener container factory
     @Bean
     public SimpleRabbitListenerContainerFactory rabbitListenerContainerFactory(ConnectionFactory connectionFactory) {
