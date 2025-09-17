@@ -3,13 +3,14 @@ Spring Boot ile geliştirilmiş bir hava durumu uygulamasıdır. Uygulama, OpenW
 
 ## Özellikler
 
-- OpenWeatherMap API üzerinden şehir bazlı hava durumu verilerini alma
-- RabbitMQ ile mesajlaşma ve servisler arası iletişim
-- JSON verilerini WeatherDto nesnesine map etme
-- SLF4J/Logback ile loglama
-- Unit testler
+- 🌤️ OpenWeatherMap API üzerinden şehir bazlı hava durumu verilerini alma
+- 📩 RabbitMQ ile mesajlaşma ve servisler arası iletişim
+- 🔄 JSON verilerini `WeatherDto` nesnesine map etme
+- 📝 SLF4J / Logback ile loglama
+- ✅ Unit testler (JUnit 5 & Mockito)
+- 💻 React + Tailwind ile responsive ve modern arayüz
 
-## 🛠️ Teknoloji Yığını
+## Teknoloji Yığını
 
 ### Backend & Core
 - Java 21
