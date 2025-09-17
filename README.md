@@ -1,7 +1,7 @@
 # Hava Durumu Uygulaması (Weather App)
 Spring Boot ile geliştirilmiş bir hava durumu uygulamasıdır. Uygulama, OpenWeatherMap API’sinden hava durumu verilerini çekerek RabbitMQ üzerinden mesaj gönderimi yapar. Ayrıca uygulama, RabbitMQ üzerinden gönderilen hava durumu mesajlarını alan bir consumer ile birlikte çalışır.
 
-Özellikler
+## Özellikler
 
 - OpenWeatherMap API üzerinden şehir bazlı hava durumu verilerini alma
 - RabbitMQ ile mesajlaşma ve servisler arası iletişim
@@ -9,9 +9,9 @@ Spring Boot ile geliştirilmiş bir hava durumu uygulamasıdır. Uygulama, OpenW
 - SLF4J/Logback ile loglama
 - Unit testler
 
-🛠️ Teknoloji Yığını
+## 🛠️ Teknoloji Yığını
 
-Backend & Core
+### Backend & Core
 - Java 21
 - Spring Boot
 - RabbitMQ
@@ -19,7 +19,7 @@ Backend & Core
 - JUnit 5 & Mockito
 - Lombok
 
-Frontend
+### Frontend
 - React
 - Tailwind CSS
 
